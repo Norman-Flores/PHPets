@@ -1,0 +1,109 @@
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fb;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .site-header {
+      background-image: url('../images/header_1.png');
+  background-position: left bottom;
+  background-size: auto 100%, auto 100%; /* <-- THIS PREVENTS STRETCHING */
+  background-color: transparent;
+      padding: 1.5rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color: #234; /* Darker text */
+      border-bottom: 3px solid #FAA0A0;
+    }
+    .site-header h1 {
+      margin: 0;
+      font-weight: 700;
+      font-size: 2rem;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    /* No orders message */
+    .no-orders {
+      font-size: 1.3rem;
+      text-align: center;
+      margin: 60px 0;
+      color: #555;
+    }
+    .no-orders a {
+      color: #FAA0A0; /* Secondary color */
+      font-weight: 600;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    .no-orders a:hover {
+      color: #d97272;
+      text-decoration: underline;
+    }
+
+    /* Orders table */
+    .orders-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .orders-table th, .orders-table td {
+      padding: 15px 20px;
+      border-bottom: 1px solid #e0e6eb;
+      text-align: left;
+      font-size: 1rem;
+    }
+    .orders-table th {
+      background-color: #D2E0EB; /* Primary color */
+      color: #234;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+    }
+    .orders-table tbody tr:hover {
+      background-color: #f9fafe;
+    }
+
+    /* Back button container */
+    .back-btn-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .back-btn {
+      display: inline-block;
+      background-color: #FAA0A0; /* Secondary color */
+      color: white;
+      padding: 12px 30px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(250, 160, 160, 0.4);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .back-btn:hover {
+      background-color: #e38888;
+      box-shadow: 0 6px 12px rgba(227, 136, 136, 0.6);
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      main {
+        padding: 20px;
+        margin: 20px;
+      }
+      .orders-table th, .orders-table td {
+        padding: 10px 8px;
+        font-size: 0.9rem;
+      }
+      .back-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+      }
+    }

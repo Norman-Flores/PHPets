@@ -1,0 +1,203 @@
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+  color: #333;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background-color: #FAA0A0;
+  color: white;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  resize: vertical;
+}
+
+form button {
+  margin-top: 1rem;
+  background-color: #FAA0A0;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #FF6B6B;
+}
+
+.success-message {
+  background-color: #27ae60;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+/* Inquiry form toggle button */
+#toggleInquiryBtn {
+  background-color: #FAA0A0;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 2rem;
+  display: inline-block;
+}
+
+#toggleInquiryBtn:hover {
+  background-color: #FF6B6B;
+}
+
+/* Inquiry form hidden by default */
+#inquiryForm {
+  display: none;
+  margin-top: 1rem;
+}
+
+/* Pagination styles */
+.pagination {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.page-link {
+  display: inline-block;
+  margin: 0 0.25rem;
+  padding: 0.4rem 0.8rem;
+  background-color: #FAA0A0;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #FF6B6B;
+}
+
+.page-link.current {
+  background-color: #FF6B6B;
+  cursor: default;
+}
+
+/* Search form container */
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; /* space between input and button */
+  max-width: 400px; /* optional max width */
+}
+
+/* Search input */
+.search-input {
+  flex-grow: 1; /* input takes remaining space */
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Search button */
+.search-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #FAA0A0;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+}
+
+.search-button:hover {
+  background-color: #FF6B6B;
+}
+
+/* View Button Styles */
+.view-btn {
+  background-color: #D2E0EB;
+  color: #000;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  transition: background 0.2s;
+}
+
+.view-btn:hover,
+.view-btn:focus {
+  background-color: #B5C7D8;
+  outline: none;
+}
+
+/* Logout Button Styles */
+.logout-btn {
+  background-color: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1em;
+  margin-left: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.logout-btn:hover,
+.logout-btn:focus {
+  background-color: #d9363e;
+  outline: none;
+}

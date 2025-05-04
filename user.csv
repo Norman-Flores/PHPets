@@ -1,0 +1,3 @@
+UserID,FName,LName,Email,Password,UserType,Address,ContactNumber,FailedLoginAttempts,LastFailedLogin,IsLocked
+1,Group,Four,group4@phpets.com,$2y$10$wX.Us42JEwY4GrHBequs7edq6eLPUDmeNbp0yyOPt0EZsYHysukdS,1,"Colegio de San Juan de Letran",1234567890,0,NULL,0
+4,HAT,DOG,hatdog@gmail.com,$2y$10$PWEGVVRdOa0TflcI95NSYe//PKQg/V2lKO.l0zGAyRvLKFXSIGuDS,2,"tender juicy",995,0,NULL,0

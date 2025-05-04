@@ -1,0 +1,346 @@
+/* Main Panel */
+.admin-panel {
+  max-width: 1200px;
+  margin: 40px auto 60px auto;
+  padding: 0 20px;
+}
+
+.admin-panel > h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #333;
+  text-align: center;
+  user-select: none;
+}
+
+/* Header */
+.admin-header {
+  background-color: #D2E0EB;
+  border-bottom: 3px solid #FAA0A0;
+  padding: 18px 0;
+  box-shadow: 0 2px 6px rgba(170, 160, 160, 0.15);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.admin-header-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 1px;
+  user-select: none;
+}
+
+.admin-nav a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 25px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 18px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 0 0 transparent;
+  border: 2px solid transparent;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.3s, background-color 0.3s, box-shadow 0.3s;
+}
+
+.admin-nav a:hover {
+  background-color: #FAA0A0;
+  color: white;
+  box-shadow: 0 4px 8px rgba(250, 160, 160, 0.4);
+  border-color: #FAA0A0;
+}
+
+.admin-nav .active {
+  background-color: #FAA0A0;
+  color: white;
+  box-shadow: 0 4px 12px rgba(250, 160, 160, 0.6);
+  border-color: #FAA0A0;
+}
+
+/* Main panel */
+main.admin-panel {
+  margin-top: 30px;
+  flex-grow: 1;
+}
+
+h1 {
+  margin-bottom: 25px;
+  user-select: none;
+  color: #333;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 1rem;
+}
+
+th {
+  background-color: #FAA0A0;
+  color: white;
+  font-weight: 700;
+  user-select: none;
+}
+
+tr:hover {
+  background-color: #f9e5e5;
+  transition: background-color 0.3s ease;
+}
+
+tr.out-of-stock {
+  background-color: #f8d7da !important;
+  color: #721c24 !important;
+}
+
+tr.low-stock {
+  background-color: #fff3cd !important;
+  color: #856404 !important;
+}
+
+
+/* Optional: subtle hover effect that respects row colors */
+tr.out-of-stock:hover {
+  background-color: #f5c6cb;
+}
+
+tr.low-stock:hover {
+  background-color: #ffe8a1;
+}
+
+/* Prevent hover from overriding colors on normal rows */
+tr:not(.out-of-stock):not(.low-stock):hover {
+  background-color: #f9e5e5;
+  transition: background-color 0.3s ease;
+}
+
+
+/* Inventory input */
+.inventory-input {
+  width: 60px;
+  padding: 6px 8px;
+  font-size: 1rem;
+  border: 2px solid #D2E0EB;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+/* Readonly input style */
+.inventory-input[readonly] {
+  background-color: #f5f5f5;
+  color: #555;
+  cursor: not-allowed;
+}
+
+/* Buttons */
+.update-btn,
+.save-btn {
+  padding: 8px 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #FAA0A0;
+  color: white;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.update-btn:hover,
+.save-btn:hover {
+  background-color: #d98282;
+}
+
+.save-btn {
+  display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #FAA0A0;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(250, 160, 160, 0.15);
+    padding: 12px 15px;
+  }
+
+  td {
+    padding-left: 50%;
+    text-align: right;
+    position: relative;
+    font-size: 0.95rem;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: 45%;
+    padding-left: 15px;
+    font-weight: 700;
+    text-align: left;
+    color: #FAA0A0;
+    user-select: none;
+  }
+
+  .inventory-input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .update-btn,
+  .save-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+.inventory-input {
+  font-size: 1rem;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 2px solid #D2E0EB;
+  text-align: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+  width: 60px;
+}
+
+.update-btn,
+.save-btn {
+  padding: 8px 16px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: #FAA0A0;
+  color: white;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.update-btn:hover,
+.save-btn:hover {
+  background-color: #d98282;
+}
+
+.save-btn {
+  display: none;
+}
+
+/* Container for filters and legend */
+.inventory-filters {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Filter buttons container */
+.filter-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+/* Filter buttons */
+.filter-btn {
+  background-color: #eee;
+  border: 1.5px solid #FAA0A0;
+  color: #FAA0A0;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  user-select: none;
+}
+
+.filter-btn:hover {
+  background-color: #FAA0A0;
+  color: white;
+}
+
+.filter-btn.active {
+  background-color: #FAA0A0;
+  color: white;
+  box-shadow: 0 4px 12px rgba(250, 160, 160, 0.6);
+}
+
+/* Legend container */
+.inventory-legend {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  user-select: none;
+}
+
+/* Each legend item */
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Colored box in legend */
+.legend-color-box {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+}
+
+/* Out of stock legend color */
+.out-of-stock-legend .legend-color-box {
+  background-color: #f8d7da;
+  border-color: #721c24;
+}
+
+/* Low stock legend color */
+.low-stock-legend .legend-color-box {
+  background-color: #fff3cd;
+  border-color: #856404;
+}

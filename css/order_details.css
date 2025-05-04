@@ -1,0 +1,85 @@
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fb;
+      margin: 0; padding: 0;
+      color: #333;
+    }
+    .site-header {
+  background-image: url('../images/header_1.png');
+  background-position: left bottom;
+  background-size: auto 100%, auto 100%; /* <-- THIS PREVENTS STRETCHING */
+  background-color: transparent;      padding: 1.5rem 2rem;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      color: #234;
+        border-bottom: 3px solid #FAA0A0;
+    }
+    main {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    .order-info {
+      margin-bottom: 30px;
+    }
+    .order-info p {
+      margin: 6px 0;
+      font-size: 1.1rem;
+    }
+    .order-status {
+      font-weight: 700;
+      color: #FAA0A0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table th, table td {
+      padding: 12px 15px;
+      border-bottom: 1px solid #e0e6eb;
+      text-align: left;
+      vertical-align: middle;
+    }
+    table th {
+      background-color: #D2E0EB;
+      color: #234;
+      font-weight: 700;
+    }
+    table img {
+      width: 60px;
+      height: 60px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+    .total-row td {
+      font-weight: 700;
+      font-size: 1.2rem;
+      border-top: 2px solid #FAA0A0;
+    }
+    .back-btn-container {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .back-btn {
+      display: inline-block;
+      background-color: #FAA0A0;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(250, 160, 160, 0.4);
+      transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    .back-btn:hover {
+      background-color: #e38888;
+      box-shadow: 0 6px 12px rgba(227, 136, 136, 0.6);
+    }

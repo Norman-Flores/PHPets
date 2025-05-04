@@ -1,0 +1,246 @@
+/* Container and layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  color: #333;
+}
+
+h1, h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Button styles */
+button, .btn {
+  background-color: #FAA0A0;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #d98282;
+}
+
+/* Link styles */
+a {
+  color: #FAA0A0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Product form container */
+#product-form {
+  display: none; /* default hidden, JS toggles */
+  background-color: #D2E0EB;
+  padding: 25px 40px 25px 30px; /* extra right padding */
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  margin: 30px auto 30px auto; /* center horizontally with vertical spacing */
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form labels */
+#product-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333;
+  font-size: 1rem;
+}
+
+/* Inputs and textarea */
+#product-form input[type="text"],
+#product-form input[type="number"],
+#product-form textarea,
+#product-form select {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  border: 2px solid #D2E0EB;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  background-color: white;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.05);
+  resize: vertical;
+}
+
+#product-form input[type="text"]:focus,
+#product-form input[type="number"]:focus,
+#product-form textarea:focus,
+#product-form select:focus {
+  border-color: #FAA0A0;
+  box-shadow: 0 0 8px 2px #FAA0A0;
+}
+
+/* Buttons inside form */
+#product-form button {
+  background-color: #FAA0A0;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  user-select: none;
+}
+
+#product-form button:hover {
+  background-color: #d98282;
+}
+
+/* Cancel link */
+#product-form a {
+  margin-left: 15px;
+  color: #FAA0A0;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+#product-form a:hover {
+  color: #d98282;
+  text-decoration: underline;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th, td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
+}
+
+th {
+  background-color: #FAA0A0;
+  color: white;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #f4f4f4;
+}
+
+/* Image in table */
+table img {
+  border-radius: 4px;
+  max-width: 60px;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #product-form input[type="text"],
+  #product-form input[type="number"],
+  #product-form textarea,
+  #product-form select {
+    max-width: 100%;
+  }
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+
+  thead tr {
+    display: none;
+  }
+
+  tr {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #FAA0A0;
+  }
+
+  td {
+    padding-left: 50%;
+    position: relative;
+    text-align: right;
+  }
+
+  td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: 45%;
+    padding-left: 15px;
+    font-weight: 600;
+    text-align: left;
+  }
+}
+  
+/* Container form for inline display */
+.action-form {
+  display: inline-block; /* inline-block to respect margins */
+  margin: 0 5px 0 0;     /* right margin for spacing */
+  padding: 0;
+}
+
+/* Base button style */
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 6px 14px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* space between icon and text */
+  color: white;
+  user-select: none;
+}
+
+/* Edit button - green */
+.edit-btn {
+  background-color: #28a745;
+}
+
+.edit-btn:hover,
+.edit-btn:focus {
+  background-color: #218838;
+  box-shadow: 0 4px 8px rgba(33, 136, 56, 0.4);
+  outline: none;
+}
+
+/* Delete button - red */
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.delete-btn:hover,
+.delete-btn:focus {
+  background-color: #c82333;
+  box-shadow: 0 4px 8px rgba(200, 35, 51, 0.4);
+  outline: none;
+}

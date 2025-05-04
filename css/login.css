@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: block;
+}
+
+
+
+.site-header 
+{
+  background-color: #f0e4ff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.top-header 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo 
+{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.search-bar 
+{
+  display: flex;
+  gap: 8px;
+}
+
+.search-bar input 
+{
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button 
+{
+  padding: 8px 12px;
+  background-color: #a678ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-actions 
+{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.cart-button 
+{
+  background-color: #a678ff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-button:hover 
+{
+  background-color: #8b5ee9;
+}
+
+.cart-button .cart-count 
+{
+  background-color: white;
+  color: #a678ff;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.8rem;
+  margin-left: 6px;
+}
+
+.auth-dropdown 
+{
+  position: relative;
+}
+
+#authToggle 
+{
+  background: none;
+  border: none;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 14px;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+#authToggle:hover 
+{
+  background-color: #e6d8ff;
+}
+
+.auth-panel 
+{
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 280px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  z-index: 10;
+}
+
+.auth-panel h3 
+{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.auth-panel p 
+{
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  color: #444;
+}
+
+.auth-panel input 
+{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+.login-btn 
+{
+  width: 100%;
+  padding: 10px;
+  background-color: #a678ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.auth-links p 
+{
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.auth-links a 
+{
+  color: #a678ff;
+  text-decoration: none;
+}
+
+.auth-links a:hover 
+{
+  text-decoration: underline;
+}
+
+.category-nav 
+{
+  margin-top: 10px;
+  background-color: #d4c0ff;
+  padding: 10px 0;
+}
+
+.category-nav ul 
+{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.category-nav a 
+{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.category-nav a:hover 
+{
+  color: #a678ff;
+}
+
+
+.auth-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: calc(100vh - 150px); /* 150px accounts for header height */
+  margin-top: 20px;
+}
+
+.auth-box {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  width: 350px;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.auth-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.auth-tabs button {
+  flex: 1;
+  padding: 0.75rem;
+  border: none;
+  background: #e0e0e0;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-tabs button.active {
+  background-color: #6c63ff;
+  color: #fff;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form input {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+.auth-form button {
+  padding: 0.75rem;
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.auth-form button:hover {
+  background-color: #574de8;
+}
+
+.hidden {
+  display: none;
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+}
+
+.name-fields input {
+  flex: 1;
+}

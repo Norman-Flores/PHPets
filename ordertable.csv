@@ -1,0 +1,4 @@
+OrderID,UserID,TotalCost,PaymentType,OrderDate,deliveryAddress,OrderStatus,AdminNotes,ArrivalDate
+1,4,83.00,1,"2025-05-01 15:15:13","tender juicy",Delivered,,"2025-05-01 21:31:18"
+2,4,3926.00,1,"2025-05-01 23:39:13","tender juicy",Pending,NULL,NULL
+3,4,4175.00,1,"2025-05-02 00:05:47","tender juicy",Pending,NULL,NULL

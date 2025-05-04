@@ -1,0 +1,134 @@
+ProductID,ProductName,Description,Price,Inventory,ProductImage,CategoryID
+1,"Treat Tumble","Interactive treat-dispensing toy that boosts your dog’s brainpower and motor skills—great for indoor or outdoor fun.",500,50,1.png,1
+2,"Treat Maze","Tap-and-flip puzzle toy that challenges your dog’s mind while rewarding with treats—perfect for dogs of all ages and sizes.",700,20,2.png,1
+3,"Carrot Plush","Soft plush carrot toy with squeaker – perfect for comfort, play, and easing anxiety in dogs of all sizes.",83,9,3.png,1
+4,"Squeaky Ball","Soft, bouncy ball that squeaks when bitten—perfect for fun fetch games and playtime.",109,0,4.png,1
+5,"Spike Kawaii Plush Scrabble Dog Toy","Soft and gentle on teeth, made with tear-resistant fabric and easy-to-clean materials. Adorably realistic design.",370,0,5.png,1
+6,"Nina Ottosson Smart Puzzle","Fun and interactive treat game that keeps dogs entertained and fights boredom. Great for beginners, easy to clean, and perfect for teaching problem-solving skills.",799,0,6.png,1
+7,"Doggo Dog Toy Rope Ball Medium Blue","Sturdy rope ball made of thick fiber for endless tug and chew fun. Durable, medium-sized, and paw-fectly crafted in blue!",189,0,7.png,1
+8,"Approved Plush Dog Toy White","Soft, washable plush toy that keeps your pet safe and clean—perfect for gentle play and bonding moments. Not suited for aggressive chewers.",270,0,8.png,1
+9,"Approved Plush Paw Shape Dog Toy","Squeaky plush toy made from washable polyester and soft PP cotton—available in blue, green, and yellow. Great for playful bonding, but not for aggressive chewers.
+
+",170,0,9.png,1
+10,"Approved Plush Green Monster with Star Dog Toy","Plush Green Monster Dog Toy with a squeaky star—made from safe, non-toxic, bite-resistant material. Fun, soft, and perfect for keeping dogs entertained and calm.",289,0,10.png,1
+11,"Silicone Flying Saucer ","Durable silicone flying disc that's gentle on your dog’s mouth—perfect for fetch, easy to clean, and fun for active play.",98,0,11.png,1
+12,"Approved Plush Fish Bone Dog Toy","Soft and fun squeaky toys made from washable polyester material, filled with PP cotton. These toys are designed for interactive play and bonding with your pet. Not suitable for aggressive chewers.",130,0,12.png,1
+13,"Power Chew Donut Chew Toy","An a-dough-rable spin on a classic dessert, this Power Chew donut dog toy combines sweet personality with savory flavor. It features sprinkle-like textures to help clean teeth and is made from durable material that stands up to aggressive chewers. Promotes healthy, non-destructive chewing habits and is veterinarian-recommended for power chewers.",520,0,13.png,1
+14,"Pink Cotton Rope Bone with Tennis Ball","The Dogit Cotton Rope Bone with Tennis Ball offers fun and exercise while supporting your dog’s dental health. As your dog chews, the cotton fibers help clean teeth and gums. Made from natural, biodegradable materials and machine washable for easy cleaning.",279,0,14.png,1
+15,"Fried Chicken Plush Dog Toy","This giggly drumstick toy shakes up playtime with fun sounds and crinkles or a squeaker! Made with double-stitched edges, eco-friendly filler, and AZO-free dyes. Machine washable. Not for chewing.",229,0,15.png,1
+16,"Bone Plush Toy","Soft and playful, this fabric toy encourages your dog to stay active with its fun shape and interactive design—perfect for fetch and bonding play.",150,0,16.png,1
+17,"Approved Plush Blue Monster Dog Toy","Soft plush monster toy with adorable facial expressions and flexible, cuddly fabric.
+Made with high-quality materials for safe play and comfort.
+Great for fetch, snuggles, or as a bedtime buddy.",329,0,17.png,1
+18,"Approved Plush Navy Blue Monster Dog Toy","Durable plush monster toy made from safe, non-toxic materials.
+Squeaky feature keeps dogs engaged and helps release excess energy.
+Soft, easy to clean, and designed to protect furniture from boredom-related chewing.
+
+
+
+
+
+
+
+
+",289,0,18.png,1
+19,"Robust sling ball","Durable rope ball made of premium natural rubber, safe and non-toxic.
+Perfect for long throws, interactive play, training, and snack-filling.
+Encourages exercise, relieves boredom, and supports healthy chewing habits.",169,0,19.png,1
+20,"Absorbine Silver Honey Rapid Wound","Powerful, fast-acting ointment made with medical-grade, natural ingredients.
+pH-balanced, antibiotic-free formula promotes healing without disrupting skin.
+Ideal for treating cuts, wounds, rashes, bites, and various skin irritations.",899,0,20.png,2
+21,"Vitamin D for Dogs","Vitamin D supplement for dogs, enriched with Calcium, Magnesium, and Zinc.
+Supports strong teeth, bones, and muscles while promoting healthy mineral metabolism.
+Boosts immune function with 120 chewable tablets for easy daily use.",429,0,21.png,2
+22,"LC Vit Multivitamins Syrup","Multivitamins for dogs, cats, rabbits, hamsters, and chinchillas.
+Prevents and treats vitamin deficiencies, improving appetite and overall health.
+Supports your pet's well-being with a comprehensive blend of essential vitamins.",205,0,22.png,2
+23,"Biogance DentiFresh Oral care","The Trixie Dental Hygiene Set includes toothpaste, a finger toothbrush, and a two-sided brush for effective dental care. It helps clean teeth and gums, promoting overall oral health for dogs.",475,0,23.png,2
+24,"Soft Chew Treats with Pumpkin","Glandex Advanced Strength Soft Chews support your dog's anal glands and digestive health with natural ingredients like MegaFiber Blend, Digestive Enzymes, and Probiotics. These chews promote healthy function and firm stools, with a tasty duck and bacon flavor. Recommended by veterinarians for chronic anal gland issues.",699,0,24.png,2
+25,"Wild Alaskan Salmon Oil for Dogs","Zesty Paws Wild Alaskan Salmon Oil is a liquid supplement for pets, rich in Omega-3 and Omega-6 fatty acids. It supports skin, coat, joints, heart, and immune health. Easy to mix with food, it's made in the USA with high-quality, safe ingredients.",799,0,25.png,2
+26,"CANINE SCIENCE Probiotics Meal Topper for Dogs ","Canine Science Probiotic Meal Topper for Dogs helps balance gut bacteria, preventing itching, diarrhea, and harmful bacteria buildup. Packed with probiotics, it supports digestion, prevents skin issues, and addresses Small Intestinal Bacterial Overgrowth (SIBO), promoting overall digestive health and comfort.
+
+
+
+
+
+
+
+
+",499,0,26.png,2
+27,"Zesty Paws Digestive Health Probiotic Bites for Dogs ","Zesty Paws Probiotic Bites support your dog's digestive health with a blend of Prebiotics, Probiotics, and Enzymes. They promote stomach comfort, aid nutrient absorption, and support immune health with 3 billion CFU of healthy bacteria in each chicken-flavored soft chew. Available in a 90-count pack.",899,0,27.png,2
+28,"Pest Buster 300ml ","Pest Buster is a powerful, non-toxic pest control solution that eliminates common household pests like cockroaches, ants, and spiders. It provides long-lasting protection, keeping your home pest-free for weeks. Safe for pets and children, it’s easy to apply with no odor or residue, leaving your home fresh and clean.",263,0,28.png,2
+29,"Happy Pet Multivitamins and Amino Acids","Happy Pet Vitamino 100ml is a supplement for dogs and cats that supports healthy growth, muscle development, and coat condition. It strengthens the immune system, boosts metabolism, and promotes digestive functions for overall pet wellness.",199,0,29.png,2
+30,"Nutrimax Nutritional Paste Vitalplus for Healthy Immune Systems","Nutrimax Vitalplus is a 30ml nutritional paste for cats and dogs that boosts immune health, promotes healthy growth, and improves overall well-being. It enhances appetite, reduces viral shedding, and helps reduce stress from environmental changes.",299,0,30.png,2
+31,"Tropiclean Oxymed Pet Ear Cleanser ","A fast-acting, gentle formula to reduce odor, buildup, and irritation, promoting ear hygiene and preventing infections. Made in the USA with vet-recommended ingredients.",450,0,31.png,2
+32,"PetArmor® Ear Mite & Tick Treatment for Dogs","Provides fast relief from itching caused by ear mites and ticks. Formulated with aloe to soothe irritation and support healing.",259,0,32.png,2
+33,"Canine Science Dental Care Water Additive","Freshens breath, fights plaque, and supports gum health with every sip. Easy to use—just add to your dog’s water daily. Safe, tasteless, and perfect for dogs of all sizes.",549,0,33.png,2
+34,"Pet Logic Probiotic Digestive Health Beef Pet Supplement","Supports digestion, nutrient absorption, and immunity. Helps maintain gut balance with daily tasty chews. Easy feeding by weight—just store in a cool, dry place.",269,0,34.png,2
+35,"Melatonin Calming Bites Turkey Flavored","Calming chews with Suntheanine and Ashwagandha help reduce stress, nervousness, and hyperactivity in dogs, promoting relaxation and focus with natural ingredients.",599,0,35.png,2
+36,"Fera Multivitamin Goat Milk Topper","The Goat Milk Multivitamin formula features essential vitamins and minerals plus probiotics—all designed to meet your pet’s nutritional needs.",699,0,36.png,2
+37,"Probiotic Digestive Health Beef Pet Supplement","Supports healthy digestion, replenishes good bacteria, and boosts immunity in dogs.",299,0,37.png,2
+38,"Allergy & Immune Bites - Peanut Butter Flavor","Specially formulated to support immune function and help fido with seasonal foes, with human-grade Epicor and other ingredients, and a delicious peanut butter flavor fido will love!",499,0,38.png,2
+39,"Doggo Bathing Pet Brush","Massaging effect, ergonomic non-slip handle, and made from high-quality materials.",319,0,39.png,3
+40,"Wahl Doggie Deodorant ","Cornflower & aloe plant derived pet deodorant : Deodorant is made of plant-derived materials which are safe to use for your pet. Even the color of the deodorant comes from plant substances.",500,0,40.png,3
+41,"Professional Cord/Cordless Clipper for Dogs"," Equipped with a robust 6000rpm rotary motor and stainless steel taper blade, achieve immaculate cuts with ease. ",999,0,41.png,3
+42,"Saint Roche Premium Heaven Scent ","Infused with herbal extracts to prevent tangles and mats, promotes a shiny, healthy coat with consistent use.",329,0,42.png,3
+43,"Baby Boo Male Wrap ","Comfortable male diapers with 360° leak protection, secure fit, soft materials, strong Velcro tabs, and advanced leak-proof tech for all-day dryness and ease.",189,0,43.png,3
+44,"Pet Nail Cutter","Scissors-type trimmer ideal for long, curled nails—especially dew claws that don’t wear down naturally and can grow into the toe-pad.",105,0,44.png,3
+45,"Microplush Fleece Polyester Dog Blanket","Lightweight flannel fleece blanket that’s cozy year-round, protects furniture, and helps your pet rest better—machine-washable for easy cleaning.",399,0,45.png,3
+46,"Pet Training Pad","Absorbent, leak-proof training pad designed for hassle-free potty training and easy cleanup.",190,0,46.png,3
+47,"P for PET Wipe ME","100% biodegradable grooming wipes with purified water and anti-bacterial formula—cleans, deodorizes, and helps protect against fleas and ticks while maintaining skin pH balance.",159,0,47.png,3
+48,"Doggo Slicker Pet Brush","Easy-to-clean slicker brush with ergonomic non-slip handle, suitable for all hair types.
+",319,0,48.png,3
+49,"Happiness Scent Dog Shampoo","Premium organic dog shampoo with a Happiness scent, featuring Moringa, Oatmeal, Eucalyptus, and Aloe Vera. Hypoallergenic, removes ticks, mites, fleas, and odor—SLES and paraben-free.",179,0,49.png,3
+50,"Premium Heaven Scent Dog Shampoo","Premium organic dog shampoo with a Heaven scent, featuring Moringa, Oatmeal, Eucalyptus, and Aloe Vera. Hypoallergenic, removes ticks, mites, fleas, and odor—SLES and paraben-free.",179,0,50.png,3
+51,"Vetnoderm Medicated Herbal Soap","Medicated herbal soap for treating scabies, demodicosis, ticks, and fungal skin infections. Safe for dogs and cats (1 month and older)",350,0,51.png,3
+52,"KIPRUN Pet Nail Grinder","Pet nail grinder with 2 speeds, 3 port sizes, ultra-quiet (under 50 dB), rechargeable, and 4-hour battery life.",591,0,52.png,3
+53," Nail Clipper Cutter + File Set","Nail clipper and file set for easy pet grooming and nail care.",150,0,53.png,3
+54,"Care Kind Baby Fresh Dog Shampoo","500ml dog shampoo with 20:1 dilution, baby powder scent, pH balanced, suitable for all breeds and puppies over 8 weeks. Deep cleans, removes odors, and leaves coat soft, shiny, and fresh.",379,0,54.png,3
+55,"Pampered Pooch Anti Tick and Flea Pet Cologne","2-in-1 anti-tick and flea pet cologne for dogs and cats (12 weeks+), with a stylish fragrance, low alcohol, and helps keep pets fresh and clean.",180,13,55.png,3
+56,"FURMOMKHAI - PET POWDER","Anti-tick and flea pet powder in various scents, keeps pets fresh, clean, and comfortable. Suitable for dogs and cats 12 weeks+.",170,22,56.png,3
+57,"Pet Story Potty Training Spray ","Pet defecation inducer for training dogs to excrete at a fixed point. Safe, odorless, and environmentally friendly, suitable for all dogs and cats. 50ml capacity.",150,23,57.png,3
+58,"Goodies Long Lasting Dental Bar Bacon Dog Treats","Bacon-flavored dental treats for medium and large dogs, designed to clean teeth and gums, reduce plaque and tartar, and promote healthy chewing. No added grain, corn, or soy, and low in fat.",99,25,58.png,4
+59,"Sleeky Chewy Strap Bacon Flavored","Chewy straps are a safe, easily digestible treat for all dog breeds—perfect for chewing and supporting overall health.",79,16,59.png,4
+60,"Sleeky Chewy Snack Stick Beef and Cheese","Beef and cheese-flavored chewy sticks made with real meat, ideal for all breeds and life stages. Easily digestible, healthy, and perfect as a reward or anytime treat.",79,9,60.png,4
+61,"Pedigree Tasty Bites Chewy Bones Beef Dog Treats ","Soft, beef-flavored chewy bone treats that are low in fat—perfect for training, rewarding, or anytime treating.",105,15,61.png,4
+62,"Bokbok Giant Chewy Stick Dog Treats","Organic, hypoallergenic chewy stick made with high-protein fish—no salt, no chicken, ideal for dogs with allergies.",75,16,62.png,4
+63,"Bokbok Tuna Bone Sticks Dog Treats","Organic, hypoallergenic tuna bone sticks made with high-protein fish—no salt, no chicken, perfect for dogs with allergies.",150,9,63.png,4
+64,"Pet Plus Doggie Biscuits","100% all-natural round dog treats in mixed flavors like milk, cheese, melon, and vegetable—tasty, nutritious, and fun-shaped. Made in Thailand.",140,19,64.png,1
+65,"Sleeky Chewy Snack Strap & Stick Treats","Chewy sticks and straps made with real meat—nutritionally complete, easily digestible, and perfect as a reward or anytime treat for all breeds and life stages.",50,7,65.png,4
+66,"CESAR Filets in Gravy Wet Dog Food","Wet dog food variety pack with real beef or chicken in filet mignon, rotisserie, and wood-grilled flavors. No fillers or artificial flavors—great as a meal or topper.",299,10,66.png,4
+67,"Harringtons Turkey","High-meat adult dog kibble made with 26% turkey, added chicken gravy, and natural ingredients. Supports digestion, immunity, coat health, and odor control—no dairy or artificial nasties.",250,19,67.png,4
+68," SmartHeart Dog Treat Fruit And Veggie Grilled Beef Chicken ","Bite-sized dog treats enriched with fruits and vegetables—wholesome, flavorful, and nutritious for a satisfying snack.",223,11,68.png,4
+69,"Sleeky Chewy Snack Stick Lamb Flavored","Chewy sticks that are safe, easily digestible, and provide various health benefits while giving your dog a satisfying chew.",79,21,69.png,4
+70,"Milky Biscuit","Calcium-fortified milky biscuits with essential vitamins and nutrients, promoting healthy teeth and bones. Flavored with milk, beef, and liver for a tasty treat.",99,16,70.png,4
+71,"Royal Canin Veterinary Diabetic Dog","Royal Canin Veterinary Diabetic Dog food, specially formulated to meet the nutritional needs of diabetic dogs for optimal health and management.",499,5,71.png,4
+72,"Pet Plus Train and Reward","Cereal-based dog treat rich in protein, cholesterol-free, aids digestion, and low in saturated fat for a healthy diet.",184,23,72.png,4
+73,"Pedigree Dentastix Toy 60g","Dental treat for adult toy breed dogs (9 months+), with an X-shape design to reduce tartar and plaque, promoting clean teeth and fresh breath. Each pack contains 60g of Pedigree Dentastix Toy.",86,30,73.png,4
+74,"PEDIGREE BISCROK Original Dog Treats","Pedigree dog biscuits in lamb, chicken, and beef flavors, enriched with vitamins, calcium, and cereals. No artificial colors or flavors, supporting a healthy diet with Omega 3.",134,11,74.png,4
+75,"Vitakraft Joesie + Chicken & Carrot with Pea ","Vitakraft Joesie heart-shaped trays offer a balanced mix of meats, vegetables, and high-quality ingredients for your dog’s delight. Made with love, featuring chicken, carrots, peas, and milk.",55,12,75.png,4
+76,"Dog Collar Pendant Handmade Pet Collar Ties","Adjustable candy collar for cats and dogs, available in green avocado, yellow poached egg, pink girl, and blue cat's paw colors. Made from cotton polyester with alloy pendants, suitable for all seasons.",48,3,76.png,5
+77,"Collapsible Cage","Collapsible pet cage available in medium, large, XL, and XXL sizes, suitable for dogs, cats, rabbits, and more. Sizes range from 19"x12"x15" to 30"x20"x22".",830,2,77.png,5
+78,"Zeedog Neopro Dog Collar","Zee.Dog NeoPro™ Dog collar with weatherproof rubber, 4-point locking buckle, and adjustable fit—perfect for outdoor adventures and easy to clean.",230,13,78.png,5
+79,"ZEE.DOG GLITCH ERROR","Zee.Dog collar with a 4-point buckle, weather-resistant polyester, reflective material, and durable zinc alloy rings. Iconic rubber logo for extra durability.",199,13,79.png,5
+80,"Pet Carrier for Small Medium Cats Dogs Puppies","Airline-approved pet carrier with adjustable shoulder strap, dual seatbelt loops, and waterproof fabric. Four mesh sides for comfort and easy pet monitoring. Machine-washable fleece bed. Fits pets up to 15 lbs.",999,6,80.png,5
+81,"Yeleo Trosetry Pet Cat And Dog Mattress","Cozy bed for pets with an open design for easy access. Made from skin-friendly, breathable material for comfort and health. Machine washable and durable, suitable for all pets.",109,19,81.png,5
+82,"Pet Carrier Bag Front Back Carrier ","Durable pet carrier backpack for small to medium dogs. Features breathable mesh, adjustable straps, and safety hook. Wear it front or back for hands-free convenience. Available in 4 sizes.",142,16,82.png,1
+83,"Iris Ohyama Pet Carry White/Beige","Lightweight pet carrier with adjustable front and top doors. Easy to store and washable. Size: 15.2 x 23.0 x 12.8 inches.",899,3,83.png,5
+84,"Blue Terry Shark Robe","This sea-blue dog robe features white cuffs, a shark-themed hood with teeth, black eyes, and a tail-like bottom. Soft, high-quality material with a Baby Aspen label.",499,4,84.png,5
+85,"Transparent Pet Carrier","This foldable pet carrier is made from durable EVC material, with a transparent design and 360° ventilation, perfect for travel.",347,15,85.png,5
+86,"Pet Feeder Bowl Stainless Steel","The raised silicone mat catches spills, keeping floors clean. Durable, no-tip bowl with a rubber base, perfect for food or water. Dishwasher-safe for easy cleaning.",315,10,86.png,5
+87,"QJZB Automatic Food Refill Feeder","The Automatic Water Dispenser keeps water clean with a siphon. The feeder prevents jams, is made from durable, safe material, and has a non-slip base to avoid spills.",637,11,87.png,5
+88,"High Pet Dog Playpen Foldable Portable Exercise Cage","Easy to set up, this fence creates a safe barrier for pets. The 8-panel foldable design offers convenient storage and relocation.",1113,6,88.png,5
+89,"Fancy Dress up Chihuahua Boots ","The package includes 2 pairs of stylish, durable dog shoes with a rubber sole. Soft, comfortable, and easy to wear for your pet.",145,2,89.png,5
+90,"Clothes Warm Fleece Pet Costume ","High-quality fleece pet clothes with a cute elk design, hood, and button closure. Warm, comfy, and perfect for small dogs and cats in winter.",413,9,90.png,5
+91,"Pet Backpack With Harness Collar Outdoor Travel","Dog backpack with harness and collar, designed like a mini school bag. Perfect for outdoor walks, travel, and carrying small essentials.",362,12,91.png,5
+92,"Retractable Pet Reflective Lead Rope Retractor","Retractable dog leash with tangle-free coil, anti-slip handle, and durable ABS/nylon build. Available in 3M, 5M, and 8M for all dog sizes.",349,6,92.png,5
+93,"BECHIVA Soft real leather collar","Handcrafted leather leash for small pets, lightweight and soft with easy buckles and a D-ring for leash or tag attachment.",278,18,93.png,5
+94,"Nylon Rope Dog Lead","Heavy-duty reflective dog leash made of bold nylon rope with a foam handle. Black only. Durable, safe, and great for night walks.",129,10,94.png,5
+95,"Dog Muzzle Set Adjustable Pet","The Pet Muzzle Set is made of sturdy plastic to prevent biting, barking, and eating off the ground. It’s breathable, durable, and comfortable with a non-stuffy, eye-safe design and secure fit.",248,4,95.png,5
+96,"Pet Pals Christmas Reindeer","The Pet Christmas Tutu Set is soft, breathable, and perfect for Christmas or any occasion. Easy to wear, keeping your dog cool and comfortable. Available in small and medium sizes.",199,18,96.png,5
+97,"Outward Hound Slow Fun Feeder Bowl","The Outward Hound Fun Feeder dog bowl slows down eating by up to 10X with its unique meal-lengthening ridges.",369,5,97.png,5
+98,"Stainless Steel Pet Food Bowl","Durable stainless steel pet bowl with a polished, easy-to-clean surface and anti-skid base. Suitable for food or water, and available in various sizes for dogs and cats.",89,20,98.png,5
+99,"Arcadia Trail Step-In Harness Coat","The Arcadia Trail Step-In Harness Coat keeps your dog warm, safe, and visible with an adjustable harness and reflective zipper, perfect for outdoor adventures.",599,17,99.png,5
+100,"Approved Teepee Pet House","The Approved Teepee Pet House is a durable, easy-to-assemble play space for pets, perfect for indoor and outdoor use. Pillow, blanket, and mat not included.",2349,2,100.png,5

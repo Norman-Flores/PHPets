@@ -1,0 +1,37 @@
+/* admin_sales.css */
+
+/* Simple table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+th {
+  background-color: #faa0a0;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.product-image {
+  max-width: 60px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.section-title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #d9534f;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
